@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color: wheat;
+}
+
+header {
+    margin-top: 0;
+    text-align: center;
+    vertical-align: baseline;
+    font-family: Verdana;
+    background-color: rgb(194, 178, 0);
+    font-size: 36px;
+    background-image: url(logopng.png) ;
+    background-size: 240px 270px ;
+    background-repeat: no-repeat;
+    background-position:left;
+    padding:20px;
+
+}
+header.headx p{
+    display: inline-block;
+    font-family: verdana;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(0, 181, 21);
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 3px;
+
+}
+header .social a {
+    position: relative;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 40px;
+}
+.fa {
+    font-size: 30px;
+    text-align: center;
+    text-decoration:none;
+
+}
+.fa-whatsapp {
+    color: rgb(255, 255, 255);
+}
+.fa-facebook {
+    color: rgb(255, 255, 255);
+}
+.fa-instagram {
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.fa-phone {
+    color: rgb(255, 255, 255);
+}
+.fa-whatsapp:hover {
+    color: rgb(86, 82, 82);
+    transition:0.5s;
+}
+.fa-facebook:hover {
+    color: rgb(0, 26, 255);
+    transition: 0.4s;
+}
+.fa-instagram:hover {
+    color: pink ;
+    transition: 0.4s;
+}
+.fa-phone:hover {
+    color: rgb(0, 26, 255);
+    transition:0.5s;
+}
+
+header a.right {
+
+        background-color: #f44336;
+        color: white;
+        padding: 14px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 15px;
+        margin-top: 15px;
+        margin-right: 1px;
+
+}
+a.right:hover {
+    background-color: #002ad1;
+    color:rgb(255, 255, 255);
+    transition: 0.55s;
+    border-radius: 15px;
+}
+
+
+div.dealer {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+div.dealer img {
+    display: inline-block;
+    margin: 10px 5px;
+    height: 30%;
+    width: 48%;
+    border: solid 3px;
+    border-color: rgb(75, 145, 0);
+    border-radius: 15px;
+
+}
+div.dealer img:hover{
+    box-shadow: 0 12px 16px 0 rgba(200, 16, 16, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.5s;
+}
+
